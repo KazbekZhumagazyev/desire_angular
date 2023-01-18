@@ -1,0 +1,170 @@
+
+.about__prev {
+  background-image: url(../../../assets/images/about-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  text-align: center;
+  padding: 160px 0;
+  margin-top: -55px;
+}
+
+.about__prev-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  color: #363838;
+}
+
+.about__content {
+  padding: 130px 0 40px;
+}
+
+.about__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  color: #363838;
+  padding-bottom: 20px;
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.about__title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 1px;
+  background: #6D7278;
+}
+
+.about__text {
+  padding-left: 285px;
+}
+
+.about__text p {
+  margin-bottom: 30px;
+}
+
+
+.about__popup {
+  background-image: url(../../../assets/images/blog2/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-height: 414px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*ABOUT*/
+
+
+/*inspiration*/
+
+.inspiration {
+  padding-top: 100px;
+  position: relative;
+}
+
+.inspiration::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 362px;
+  z-index: -1;
+  background-image: url(../../../assets/images/inspiration-bg.jpg);
+}
+
+.inspiration__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inspiration__images {
+  margin-right: 78px;
+  margin-left: -230px;
+}
+
+.inspiration__title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  color: #363838;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.inspiration__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  height: 2px;
+  background-color: #979797;
+}
+
+.inspiration__text {
+  margin-bottom: 31px;
+}
+
+.inspiration__content {
+  max-width: 825px;
+}
+
+.inspiration__item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #363838;
+  margin-bottom: 33px;
+}
+
+.inspiration__item-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #fff;
+  border-radius: 4px;
+}
+
+.inspiration__line {
+  height: 2px;
+  border-radius: 4px;
+  background-color: #363838;
+  margin-top: -2px;
+}
+
+
+/*inspiration*/
+
+
+/*partners*/
+.partners {
+  padding: 16px 0 60px;
+}
+
+.partners__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*partners*/
+
+.collection-about {
+  padding-bottom: 72px;
+}
